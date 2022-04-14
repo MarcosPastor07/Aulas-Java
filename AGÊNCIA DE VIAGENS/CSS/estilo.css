@@ -1,0 +1,246 @@
+/* Estilo do Corpo --*/
+body{
+    background-color:white; /* Cor da página --*/
+    font-family:'Times New Roman', Times, serif; /* Estilo da fonte --*/
+    color:white /* Cor da fonte --*/
+}
+.estilo1{
+    background-color:rgb(0, 119, 255);
+    align-items: center; /* Alinhamento dos itens para o centro --*/
+    margin: 0 auto; /* Alinhamento da margem --*/
+    padding: 20px;
+}
+
+img#título{
+    width: 110px;
+    height: 110px;
+
+}
+
+.estilo1 h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding-right: 50px;
+
+}
+
+.estilo1 table{
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    width: 45%;
+}
+
+img#imagem2{
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+img#imagem3{
+    align-items: center;
+    width: 550px;
+    height: 450px; 
+}
+
+.estilo1 img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+td{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.estilo2 table{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px ;
+    padding-top: 30px;
+}
+
+.estilo2 img{
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+    border-radius: 30px ; 
+    border-style: solid;
+    border-width: medium;
+}
+
+div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.estilo2{
+    width: 800px;
+    background-color:rgb(0, 119, 255);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.estilo3{
+    width: 800px;
+    background-color:rgb(0, 119, 255);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin: 5 auto;
+    border-radius: 25px;
+    margin-top: 20px;
+
+}
+
+.estilo3 img{
+    width: 700px;
+    height: 400px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+#video{
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto; 
+}
+
+.estilo4{
+    width: 800px;
+    background-color:rgb(0, 119, 255);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.estilo4 img{
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.roda{
+
+    margin: 0 auto;
+    height: 100px;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: white;
+}
+
+.roda img{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.page-footer{
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: relative;
+    top: 0px;
+    padding-top: 50px;
+}
+
+.page-footer p {
+    color: black;
+    text-align: center;
+    margin-bottom: -30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 94px;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+    max-width: 960px;
+    margin: 0 auto 30px;
+}
+
+.article{
+    position: relative;
+}
+
+.article-img{
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+figcaption{
+    bottom: 0;
+    width: 150px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.bttnn {
+    background-color:dodgerblue;
+    color: black;
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    border-color: dodgerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.bttnn:hover {
+    background-color: white;
+    transition: background-color 1.5s;
+}
+
+.tabhome2 {
+    margin: 0 auto;
+    color: dodgerblue;
+}
+
+.tabhome2 img {
+    width: 300px;
+    height: 300px;
+    padding-left: 15px;
+    margin-top: 15px;  
+}
