@@ -1,0 +1,74 @@
+* { margin: 0; padding: 0; } /*Isso faz com que o comportamento seja o mesmo em qualquer navegador,
+ algo essencial para a responsividade.*/
+
+ body{
+    background-image: url('https://www.papeldeparede.etc.br/fotos/wp-content/uploads/universo-basquete_3176_1024x768.jpg');
+}
+
+.new{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/bf/d5/0b/bfd50b344fbd26ff1238a6b194cb56d6.png');
+    width: 600px;
+
+}
+.slider {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    /*margin-top: 20px; - para garantir um melhor visual do slider com relação à página*/
+    position: relative;
+}
+
+.slider li {
+    list-style: none; /*garante-se um posicionamento absoluto*/
+    position: absolute;
+}
+
+.slider img {
+    margin: 0 auto;
+    height: 600px;
+    width: 1600px;
+    vertical-align: top; /*indica que a imagem ficará alinhada verticalmente com relação ao seu topo.*/
+}
+
+.slider input {
+    display: none; /*nenhuma amostragem visual do elemento*/
+    
+}
+
+.slider label {
+    background-color: rgba(248, 229, 52, 0.726);
+    bottom: 10px;
+    cursor: pointer; /*Para mostrar para o usuário que são clicáveis*/
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10; /*garante que os labels serão mostrados sobre as imagens em qualquer circunstância*/
+}
+
+.slider li:nth-child(1) label { /*para buscar o primeiro, segundo e terceiro filhos de uma determinada classe ou elemento*/
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+

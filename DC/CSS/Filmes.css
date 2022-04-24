@@ -1,0 +1,68 @@
+/*Fomatação da página filmes*/
+
+@font-face{
+    font-family: "Título";
+    src: url(../Fontes/Far-From\ Homecoming\ Updated.otf)
+}
+@font-face{
+    font-family: "Sinopse";
+    src: url(../Fontes/ComicHelvetic_Heavy.otf);
+}
+
+main{
+    color: white;
+}
+
+#video1{
+    margin-left: 20px;
+}
+
+#p1main{
+    text-align: center;
+    font-family: "Título";
+    font-size: 50px;
+}
+
+#p2main{
+    margin-left: 20px;
+    text-align: center;
+    align-content: center;
+    font-family: "Sinopse";
+    font-size: 50px;
+    margin-top: 150px;
+    -webkit-text-stroke-width: 3px; /* largura da borda */
+    -webkit-text-stroke-color: black; /* cor da borda */
+}
+
+#divMain{
+    display: inline-flex;
+}
+
+#trailer{
+    background: url(https://media.discordapp.net/attachments/965565632764608523/965764433244725318/167674_original.gif);
+    background-size: cover;
+
+    height: 75vh;
+    padding:0;
+    margin:0;
+}
+
+#trailer2{
+    background: url(https://c.tenor.com/VlRv5nmblFgAAAAd/coringa-gjirlfriend.gif);
+    background-size: cover;
+
+    height: 75vh;
+    padding:0;
+    margin:0;
+}
+
+#estiloIMG{
+    width: 500px;
+    height: 700px;
+}
+
+#divFilmes{
+    margin-top: 100px;
+    display: inline-flex;
+}
+
