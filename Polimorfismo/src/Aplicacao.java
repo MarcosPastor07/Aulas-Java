@@ -3,11 +3,11 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Animal animal = new Animal();
-		animal.Falar();
-		
-		animal = new Gato();
-		animal.Falar();
+//		Animal animal = new Animal();
+//		animal.Falar();
+//		
+//		animal = new Gato();
+//		animal.Falar();
 		
 		Gato gato = new Gato();
 		Cachorro cachorro = new Cachorro();
