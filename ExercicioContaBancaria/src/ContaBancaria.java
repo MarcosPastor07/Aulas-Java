@@ -1,10 +1,23 @@
 
-public class ContaBancaria {
+public abstract class ContaBancaria {
 
-	private int saldo;
-	
-	double sacar;
-	double tranferir;
-	ContaBancaria transferir;
+	protected double saldo;
+
+	public void depositar(double valor) {
+		 saldo += valor;
 		
+	}
+		
+	public void sacar(double valor) {
+		 saldo -= valor;
+		
+	}
+	
+	public void transferir(double valor) {
+		 saldo -= valor;
+	}
+	
+	public void calcularSaldo() {
+		
+	}
 }

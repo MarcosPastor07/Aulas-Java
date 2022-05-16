@@ -1,9 +1,11 @@
 
 public class Retangulo implements AreaCalculavel {
 
-	private int b;
-	private int h;
+	private int b; //atributo privado para definir a base do retangulo
+	private int h; //atributo privado para definir a altura do retangulo
 	
+	
+	//metodos getters and setters
 	public int getB() {
 		return b;
 	}
@@ -22,7 +24,7 @@ public class Retangulo implements AreaCalculavel {
 
 	@Override
 	public void calcularArea() {
-		System.out.println("A area do retângulo é: " + b*h);
+		System.out.println("A area do retângulo é: " + b*h); //syso para mostrar a Area 
 		
 	}
 
