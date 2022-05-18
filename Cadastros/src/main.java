@@ -11,6 +11,8 @@ public class main {
 		Pessoa pessoa = new Pessoa();
 		Endereco endereco = new Endereco();
 		
+		List<Pessoa> ListaDeUsuarios = new ArrayList<Pessoa>();
+		
 		System.out.println("Faça seu cadastro!");
 		System.out.println("Digite seu nome");
 		pessoa.nome = cadastro.next();
