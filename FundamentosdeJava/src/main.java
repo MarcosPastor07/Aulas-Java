@@ -115,17 +115,17 @@ public class main {
 //		double[] ArrayDouble = new double[3];
 //		
 //		arrayInt[3] = 4;
-//		
-//		int[] numero = new int [6];
-//		Scanner teclado = new Scanner(System.in);
-//		
-//		for (int aux2 = 0; aux2 < numero.length; aux2++) {
-//			System.out.println("Digite um número qualquer");
-//			numero[aux2] = teclado.nextInt();
-//		}
-//		for (int aux2 = 0; aux2 < numero.length; aux2++) {
-//			System.out.println("Índice " +aux2+ " = " + numero[aux2]);
-//		}
+		
+		int[] numero = new int [6];
+		Scanner teclado = new Scanner(System.in);
+		
+		for (int aux2 = 0; aux2 < numero.length; aux2++) {
+			System.out.println("Digite um número qualquer");
+			numero[aux2] = teclado.nextInt();
+		}
+		for (int aux2 = 0; aux2 < numero.length; aux2++) {
+			System.out.println("Índice " +aux2+ " = " + numero[aux2]);
+	}
 //		interar é a forma de ver cada posiçao/valor da matriz
 //		int[] arrayQualquer = new int[3];
 //		Object[] arrayObject = new Object[5];
