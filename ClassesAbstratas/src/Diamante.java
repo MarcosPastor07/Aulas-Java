@@ -2,8 +2,8 @@
 public class Diamante extends Item {
 
 	@Override
-	public void pegar() { // puxando o método 'pegar' com o Override 
-		System.out.println("Pegou Diamante"); // syso feito para aparecer essa mensagem quando o método 'pegar' for chamado na Aplicacao
+	public void pegar() { // puxando o mÃ©todo 'pegar' com o Override 
+		System.out.println("Pegou Diamante"); // syso feito para aparecer essa mensagem quando o mÃ©todo 'pegar' for executado na Aplicacao
 	}
 
 }
