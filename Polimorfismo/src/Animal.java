@@ -1,7 +1,7 @@
 
 public class Animal {
 
-	public void Falar() {
+	public void Falar() { //Criando um método Falar que não possui retorno
 		
 	}
 }
