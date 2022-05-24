@@ -1,21 +1,24 @@
 	
 public class Veiculo {
 	
+	//Criando atributos
 	private String nome;
 	protected String marca;
 	protected String modelo;
 	protected int ano;
 	
-	public void buzinar() {
-		System.out.println("BI BI");
+	public void buzinar() { //Criando o método Buzinar
+		System.out.println("BI BI"); //Mensagem que deve ser exibida após o método buzinar ser executado
 	}
 	
-	public void imprimir() {
+	public void imprimir() { //Criando o método imprimir
+		//Mensagens que devem ser exibidas após a execução do método. Utilização do "+" para concatenar a mensagem com o atributo
 		System.out.println("Marca: " + marca);
 		System.out.println("Modelo: " + modelo);
 		System.out.println("Ano: " + ano);
 	}
 	
+	//Utilizando getters and setters para pegar e alterar valores dentro da classe main
 	public String getNome() {
 		return nome;
 	}
