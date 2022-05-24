@@ -9,10 +9,10 @@ public class Aplicacao {
 //		animal = new Gato();
 //		animal.Falar();
 		
-		Gato gato = new Gato();
-		Cachorro cachorro = new Cachorro();
-		falar(gato);
-		falar(cachorro);
+		Gato gato = new Gato(); //Instanciando um objeto
+		Cachorro cachorro = new Cachorro(); //Instanciando um objeto
+		falar(gato); //Chamando o método falar da subclasse gato
+		falar(cachorro); //Chamando o método falar da subclasse cachorro
 
 	}
 	public static void falar(Animal a) {
