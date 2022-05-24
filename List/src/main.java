@@ -5,7 +5,7 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		List lista = new ArrayList();
+		List lista = new ArrayList(); //Instanciando uma lista
 	
 //		lista.add("abc");
 //		lista.add(12);
@@ -35,13 +35,14 @@ public class main {
 //		System.out.println();
 //		lista.clear();
 //		if(lista.isEmpty()) {
-//			System.out.println("Sua lista est· vazia");
+//			System.out.println("Sua lista est√° vazia");
 //		}	
 		
+		//Instanciando Objetos
 		Conta conta1 = new Conta("Agua", 60.00);
 		Conta conta2 = new Conta("Luz", 120.00);
 		
-		List<Conta> listaDeContas = new ArrayList<Conta>();
+		List<Conta> listaDeContas = new ArrayList<Conta>(); //Criando uma lista para a classe Conta
 		
 		listaDeContas.add(conta1);
 		listaDeContas.add(conta2);
