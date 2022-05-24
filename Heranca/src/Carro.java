@@ -1,5 +1,5 @@
 
-public class Carro extends Veiculo{
+public class Carro extends Veiculo{ //A subclasse Carro estende de Veiculo, que é a super classe
 	
 	private boolean quatroPortas; //Criando um atributo que apenas o carro pode possuir
 	
