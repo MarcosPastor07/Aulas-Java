@@ -9,7 +9,7 @@ public class CalcularArea {
 		
 		AreaPoligonos soma = new AreaPoligonos(); // Instanciando o objeto AreaPoligonos
 		
-		System.out.println("Some a área dos polígonos");{ // Utilizando syso para mostrar uma mensagem no console. A mensagem que irá aparecer, é o que está dentro de aspas
+		System.out.println("Some a �rea dos pol�gonos");{ // Utilizando syso para mostrar uma mensagem no console. A mensagem que ira aparecer, é o que está dentro de aspas
 		System.out.println("1 - Quadrado");
 		System.out.println("Digite o valor da altura da forma");
 		int x = scanner.nextInt(); // Definindo que o valor x irá receber um novo valor que o usuário irá digitar. Isso é possível graças ao Scanner 
