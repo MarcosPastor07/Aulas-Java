@@ -29,8 +29,17 @@ public class main {
 				string1 += line + "\n";
 			}
 			System.out.println(string);
-			
 		}
+//		Sabonete sabonete1 = new Sabonete("Azedo", "Verde");
+//		String s = sabonete1.toString();
+		
+		String teste = "Sabonete: Cheiro = Azedo, Cor = Verde";
+		
+		Sabonete sabonete2 = new Sabonete(teste);
+		
+		System.out.println(sabonete2);
+		
+		
 	}
 }
 		
