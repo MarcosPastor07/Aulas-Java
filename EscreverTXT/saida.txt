@@ -1,0 +1,3 @@
+Sabonete [Cheiro = sei lá o que, cor =  azul]
+Sabonete [Cheiro = Não sei, cor =  Verde]
+Sabonete [Cheiro = alguma coisa, cor =  Laranja]
