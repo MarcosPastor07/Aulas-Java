@@ -13,6 +13,8 @@ public class main {
 		
 		List<Pessoa> ListaDeUsuarios = new ArrayList<Pessoa>();
 		
+		for(int x = 0; x < 4; x++) {
+			
 		System.out.println("Faça seu cadastro!");
 		System.out.println("Digite seu nome");
 		pessoa.nome = cadastro.next();
@@ -25,7 +27,9 @@ public class main {
 		endereco.número = cadastro.nextInt();
 		System.out.println("Digite o Bairro em que você mora");
 		endereco.bairro = cadastro.next();
+		}
 		
+		ListaDeUsuarios.add()
 
 	}
 
