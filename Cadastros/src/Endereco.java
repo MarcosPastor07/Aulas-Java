@@ -1,9 +1,11 @@
 public class Endereco {
 	
+	//Criando atributos privados
 	private int num;
 	private String rua;
 	private String bairro;
 
+	//Criando os metodos getters and setters para acessar e moificar valores
 	public int getNum() {
 		return num;
 	}

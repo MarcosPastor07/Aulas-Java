@@ -20,7 +20,7 @@ public class main {
 		pessoa.setEndereco(new Endereco()); //Chamando o metodo setEndereco para utilizar ele dentro de cadastro
 		
 		//Comecando a cadastrar os usuarios utilizando o scanner e syso
-		System.out.println("Preencha seus dados");
+		System.out.println("PREENCHA SEUS DADOS");
 		System.out.println("Digite seu nome: ");
 		pessoa.setNome(cadastro.nextLine());
 		System.out.println("Digite sua idade: ");
@@ -40,7 +40,7 @@ public class main {
 				System.out.println("Digite o número correto");
 			}
 		}
-		System.out.println("Preencha o seu Endereço");
+		System.out.println("PREENCHA SEU ENDEREÇO");
 		System.out.println("Digite a Rua que você mora: ");
 		pessoa.getEndereco().setRua(cadastro.next());
 		System.out.println("Digite o número da sua casa: ");
@@ -50,8 +50,6 @@ public class main {
 		
 		ListaDeUsuarios.add(pessoa); //Adicionando os usuarios dentro de uma lista 
 
-		
-				
 		for(Object valor : ListaDeUsuarios) {
 		System.out.println(valor);
 		
