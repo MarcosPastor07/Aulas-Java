@@ -1,0 +1,4 @@
+Usuário [ Nome: Marcos Idade:17 Sexo:MASCULINO Endereço:N°91, Rua:rua, Bairro:a]
+Usuário [ Nome: Lucas Idade:21 Sexo:MASCULINO Endereço:N°99, Rua:Rua3, Bairro:b]
+Usuário [ Nome: CleitonRasta Idade:58 Sexo:MASCULINO Endereço:N°547, Rua:z, Bairro:l]
+Usuário [ Nome: Marizilda Idade:63 Sexo:FEMININO Endereço:N°71, Rua:Ruaphp, Bairro:Jardins]
