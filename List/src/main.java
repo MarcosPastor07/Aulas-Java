@@ -44,10 +44,11 @@ public class main {
 		
 		List<Conta> listaDeContas = new ArrayList<Conta>(); //Criando uma lista para a classe Conta
 		
+		//Adicionando itens na lista
 		listaDeContas.add(conta1);
 		listaDeContas.add(conta2);
 		
-		for(Conta conta : listaDeContas) {
+		for(Conta conta : listaDeContas) { //Utilizando o for que busca uma correspondência pré-determinada para funcionar
 			System.out.println(conta);
 		}
 		
