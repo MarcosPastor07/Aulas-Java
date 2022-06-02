@@ -9,8 +9,8 @@ public class main {
 	public static void main(String[] args) throws IOException {
 		
 		//Instanciando objeto
-		Sabonete sabonete1 = new Sabonete("sei l· o que", " azul");
-		Sabonete sabonete2 = new Sabonete("N„o sei", " Verde");
+		Sabonete sabonete1 = new Sabonete("sei l√° o que", " azul");
+		Sabonete sabonete2 = new Sabonete("N√£o sei", " Verde");
 		Sabonete sabonete3 = new Sabonete("alguma coisa", " Laranja");
 		
 		List<Sabonete> ListaDeSabonetes = new ArrayList<Sabonete>(); //Instanciando uma lista
@@ -20,7 +20,7 @@ public class main {
 		ListaDeSabonetes.add(sabonete2);
 		ListaDeSabonetes.add(sabonete3);
 			
-		try(BufferedWriter escrever2 = new BufferedWriter(new FileWriter("saida.txt"))){
+		try(BufferedWriter escrever2 = new BufferedWriter(new FileWriter("saida.txt"))){ //Utlizando BufferedWriter para escrever as informacoes dentro do TXT
 			for(Sabonete sabonete : ListaDeSabonetes) {
 				escrever2.write(sabonete.toString());
 			
