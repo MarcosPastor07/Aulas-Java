@@ -7,6 +7,7 @@ public class main {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
+		//Lendo o arquivo TXT
 		try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt"))){
 			String line;
 			String string = "";
