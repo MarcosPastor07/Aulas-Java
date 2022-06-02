@@ -3,6 +3,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
+		//Instanciando um novo objeto
 		Rota rota = new Rota();
 		Ferrari ferrari = new Ferrari();
 //		Fusca fusca = new Fusca();
@@ -21,6 +22,7 @@ public class Aplicacao {
 		Vendedor vendedor = new Vendedor();
 		Apartamento apartamento = new Apartamento();
 		
+		//chamando a classe vendedor juntamente do método mostrar preco e dentro de () podemos ver qual o item que tera o valor mostrado
 		vendedor.mostrarPreco(apartamento);
 		vendedor.mostrarPreco(ferrari);
 		
