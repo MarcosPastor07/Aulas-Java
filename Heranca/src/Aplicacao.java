@@ -20,7 +20,7 @@ public class Aplicacao {
 		carro.setAno(2012);
 		carro.setQuatroPortas(true);
 		
-		System.out.println();
+		System.out.println(); //syso vazio para pular linha
 		
 		carro.imprimir();
 		carro.buzinar();
