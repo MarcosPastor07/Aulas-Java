@@ -5,6 +5,18 @@ public class Endereco {
 	private String rua;
 	private String bairro;
 
+public Endereco(String[] ArrayLine) {
+		
+		String[] ArrayRua = ArrayLine[3].split("=");
+		this.rua = ArrayRua[1].trim();
+				
+		String[] ArrayNumero = ArrayLine[4].split("=");
+		this.numero = Integer.parseInt(ArrayNumero[1].trim());
+		
+		String[] ArrayBairro = ArrayLine[5].split("=");
+		this.bairro = ArrayBairro[1].trim();
+	}
+
 	//Criando os metodos getters and setters para acessar e moificar valores
 	public int getNum() {
 		return num;

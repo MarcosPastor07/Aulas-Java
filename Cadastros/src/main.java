@@ -37,37 +37,40 @@ public class main {
 			pessoa.setSexo(Sexo.FEMININO);
 			else {
 				//mensagem que deve ser exibida caso o usuario digite um numero que nao seja 1 ou 2
-				System.out.println("Errado! Esse sexo não existe");
-				System.out.println("Digite o número correto");
+				System.out.println("Errado! Esse sexo n�o existe");
+				System.out.println("Digite o n�mero correto");
 			}
 		}
-		System.out.println("PREENCHA SEU ENDEREÇO");
+		System.out.println("PREENCHA SEU ENDERE�O");
 		System.out.println("Digite a Rua que você mora: ");
 		pessoa.getEndereco().setRua(cadastro.next());
 		System.out.println("Digite o número da sua casa: ");
 		pessoa.getEndereco().setNum(cadastro.nextInt());
-		System.out.println("Digite o Bairro em que você mora: ");
+		System.out.println("Digite o Bairro em que voc� mora: ");
 		pessoa.getEndereco().setBairro(cadastro.next());
 		
 		ListaDeUsuarios.add(pessoa); //Adicionando os usuarios dentro de uma lista 
 
-		for(Object valor : ListaDeUsuarios) {
-		System.out.println(valor);
-		
-		//gravando as informações da lista dentro do TXT
-		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))){ 
-			for(Pessoa Pessoa : ListaDeUsuarios) {
-				escrever.write(Pessoa.toString());
-
-				//Lendo o arquivo TXT
-				try(BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))){
-					String line;
-		
-					}
-				}
-			}
+		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("Pessoas.txt"))) {
+			for (Pessoa pessoa : listaPessoas)
+				escrever.write(pessoa2.toString());
 		}
+
+		List<Pessoa> ListaDeUsuarios = new ArrayList<Pessoa>();
+
+		try (BufferedReader reader = new BufferedReader(new FileReader("Pessoas.txt"))) {
+			String line;
+
+			while ((line = reader.readLine()) != null) {
+				Pessoa pessoa = new Pessoa(line);
+
+				ListaDeUsuarios.add(pessoa);
+
+			}
+
+		}
+		System.out.println(ListaDeUsuarios);
 	}
 }
-}
+
 
