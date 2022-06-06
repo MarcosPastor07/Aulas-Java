@@ -1,3 +1,4 @@
+//Importando as bibliotecas do Java
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,7 +15,7 @@ public class main {
 		Scanner cadastro = new Scanner(System.in); //Instanciando o Scanner
 		List<Pessoa> ListaDeUsuarios = new ArrayList<Pessoa>(); //Instanciando uma lista
 		
-		for(int x=0; x < 4; x++) { //Criando o For para que seja possivel cadastrar 4 usuários 
+		for(int x=0; x < 4; x++) { //Criando o For para que seja possivel cadastrar 4 usuÃ¡rios 
 			
 		Pessoa pessoa = new Pessoa(); //Instanciando o objeto pessoa
 		pessoa.setEndereco(new Endereco()); //Chamando o metodo setEndereco para utilizar ele dentro de cadastro
@@ -36,16 +37,16 @@ public class main {
 			pessoa.setSexo(Sexo.FEMININO);
 			else {
 				//mensagem que deve ser exibida caso o usuario digite um numero que nao seja 1 ou 2
-				System.out.println("Errado! Esse sexo não existe");
-				System.out.println("Digite o número correto");
+				System.out.println("Errado! Esse sexo nÃ£o existe");
+				System.out.println("Digite o nÃºmero correto");
 			}
 		}
-		System.out.println("PREENCHA SEU ENDEREÇO");
-		System.out.println("Digite a Rua que você mora: ");
+		System.out.println("PREENCHA SEU ENDEREÃ‡O");
+		System.out.println("Digite a Rua que vocÃª mora: ");
 		pessoa.getEndereco().setRua(cadastro.next());
-		System.out.println("Digite o número da sua casa: ");
+		System.out.println("Digite o nÃºmero da sua casa: ");
 		pessoa.getEndereco().setNum(cadastro.nextInt());
-		System.out.println("Digite o Bairro em que você mora: ");
+		System.out.println("Digite o Bairro em que vocÃª mora: ");
 		pessoa.getEndereco().setBairro(cadastro.next());
 		
 		ListaDeUsuarios.add(pessoa); //Adicionando os usuarios dentro de uma lista 
@@ -53,7 +54,7 @@ public class main {
 		for(Object valor : ListaDeUsuarios) {
 		System.out.println(valor);
 		
-		//gravando as informações da lista dentro do TXT
+		//gravando as informaÃ§Ãµes da lista dentro do TXT
 		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))){ 
 			for(Pessoa Pessoa : ListaDeUsuarios) {
 				escrever.write(Pessoa.toString());
