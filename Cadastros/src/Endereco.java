@@ -7,6 +7,7 @@ public class Endereco {
 
 public Endereco(String[] ArrayLine) {
 		
+	//String[] e o tipo do vetor. ArrayRua e o nome do vetor e ArrayLine e aonde o vetor vai pegar a linha e fazer o split. nesse caso, o vetor pegaria a posicao 3
 		String[] ArrayRua = ArrayLine[3].split("=");
 		this.rua = ArrayRua[1].trim();
 				
@@ -39,7 +40,7 @@ public Endereco(String[] ArrayLine) {
 	
 	@Override
 	public String toString() {
-		return "N°" + num + ", Rua:" + rua + ", Bairro:" + bairro;
+		return "NÂ°" + num + ", Rua:" + rua + ", Bairro:" + bairro;
 	}
 
 	
